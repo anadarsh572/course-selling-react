@@ -1,0 +1,22 @@
+.courses-list{
+    display: flex;
+    align-items:center ;
+    background: white;
+    border-radius: 10PX;
+    width: 300px;
+    box-shadow: gray 1px 1px 1px 1px;
+    margin: 4rem auto;
+    cursor: pointer;
+    
+}
+.courses-list i{
+   color: green;
+   font-size: 40px;
+   
+
+}
+.courses-list p{
+    font-weight: 700;
+    
+
+}

@@ -1,0 +1,53 @@
+.container .left h2{
+    font-size: 70px;
+    text-align: left;
+
+    
+}
+.container .left p{
+    width: 55%;
+    font-size: x-large;
+    font-weight: 600;
+}
+.container .left button{
+    display: block;
+    margin-top: 4rem;
+}
+.container .right{
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.container .right .imgGirl{
+    width: 200px;
+    height: 380px;
+    translate: 0 28%;
+}
+.container .right .imgBoy{
+    width: 250px;
+
+}
+.container .section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem 0;
+
+    
+}
+.container .section2 div{
+    background: #515151;
+    width: 20%;
+}
+.container .section2 div span{
+    font-size: 30px;
+    font-weight: 800;
+    color: #15cf74;
+
+}
+.container .section2 div p{
+    color: white;
+
+}
