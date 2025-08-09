@@ -1,0 +1,51 @@
+.page-home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b1dfd4a4;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 10%;
+}
+.home-left p{
+    background: white;
+    width: 50%;
+    border-radius:20px;
+    font-weight: 600;
+    
+}
+.home-left h2{
+    color: green;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    font-style:italic;
+}
+.home-right{
+    position: relative;
+}
+.home-floating-box{
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    width: 100px;
+    height: 90px;
+    background: #cccccc9d;
+    border-radius: 30px;
+    font-weight: 600;
+
+}
+.home-floating-box-left{
+    position: absolute;
+    background: #cccccc9b;
+    width: 250px;
+    height: 90px;
+    bottom: 30%;
+    left: 15%;
+    border-radius: 30px;
+    font-weight: 600;
+}
